@@ -1,0 +1,87 @@
+body{
+    background: url(image/1.jpg);
+    no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+}
+header{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.head{
+    float: left;
+    color:#fff;
+    font-family: cursive;
+    font-size: 23px;
+    
+}
+nav{
+    float:right;    /* home baar ko right side le jaane ke liye use hota h */
+    margin-top: 20px;
+    
+}
+li{
+    display: inline; 
+    padding: lrem;/* home baar ko horizontal ke liye use hota h */
+    
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+}
+ ul li a:hover {
+    background-color: silver;
+    color: ivory;
+
+}
+.active{
+    color:silver;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+showcase h1
+{
+    color:yellowgreen;
+    font-family: cursive;
+    text-align: center;
+}
+showcase h3{
+    color:#fff;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.category{
+    color: #fff;
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+}
+img{
+    width: 70%;
+    border-radius: 50%;
+
+}
+h4{
+    font-size: 1.5rem;
+    margin: 3%;
+}
+.btn{
+    background-color: gold;
+    padding: lrem;
+    border: none;
+    border-radius: 8px;
+    margin-left: 45%;
+}
